@@ -19,7 +19,7 @@ student@hbg51:~/Desktop$ cd..
 cd..: command not found
 student@hbg51:~/Desktop$ 9  cd
 9: command not found
-student@hbg51:~/Desktop$ man cd
+student@hbg51:~/Desktop$ man cd //to list the manual
 
 No manual entry for cd
 student@hbg51:~/Desktop$ 
@@ -55,14 +55,17 @@ apt  install tree  # version 1.8.0-1
 
 See 'snap info tree' for additional versions.
 
-student@hbg51:/$ cd ho,e
-bash: cd: ho,e: No such file or directory
 student@hbg51:/$ cd home
 student@hbg51:/home$ pwd
 /home
 student@hbg51:/home$ cd ~
-student@hbg51:~$ pwd
+student@hbg51:~$ pwd  //present working directory
 /home/student
 student@hbg51:~$ cat
 
-
+student@hbg51:~$ rmdir A //remove a creted directory
+student@hbg51:~$ nano Nekha  //create new file
+student@hbg51:~$ cat Nekha.txt
+Hello 
+How are you?
+ hOw is everything going?
